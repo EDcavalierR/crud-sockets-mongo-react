@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "nodemon server/index.js --exec babel-node",
-    "build": "babel server -d dist",
+    "build": "npm run --prefix sockets build && babel server -d dist",
     "start": "node dist/index.js"
   },
   "keywords": [],
