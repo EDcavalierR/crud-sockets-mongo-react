@@ -7,8 +7,6 @@ yarn-debug.log*
 yarn-error.log*
 yarn.lock*
 
-
-sockets/node_modules
 sockets/.pnp
 sockets/.pnp.js
 
